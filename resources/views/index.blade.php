@@ -6,7 +6,7 @@
             <div class="advantages">
                 <div class="advantages_item">
                     <img src="img/1.png" alt="" class="">
-                    <h2>Lorem ipsum</h2>
+                    <h2>Lorem ipsum Lorem ipsum</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi vel, sunt quod rerum, saepe necessitatibus?</p>
                 </div>
                 <div class="advantages_item">
