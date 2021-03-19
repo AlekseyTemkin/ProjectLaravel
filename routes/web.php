@@ -13,24 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/blog', function () {
-    return view('blog');
-});
-Route::get('/about', function () {
-    return view('about');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
-Route::get('/location', function () {
-    return view('location');
-});
-Route::get('/project', function () {
-    return view('project');
-});
-Route::get('/services', function () {
-    return view('services');
-});
+Route::get('/', 'PostController@showindex');
+
+Route::get('/blog', 'PostController@showblog');
+
+Route::get('/about', 'PostController@showabout');
+
+Route::get('/contact', 'PostController@showcontact');
+
+Route::get('/location', 'PostController@showlocation');
+
+Route::get('/project', 'PostController@showproject');
+
+Route::get('/services', 'PostController@showservices');
